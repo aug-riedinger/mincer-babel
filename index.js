@@ -1,7 +1,5 @@
 'use strict';
 
-var prop = require('mincer/lib/mincer/common').prop;
-
 // stdlib
 var path = require('path');
 
