@@ -50,5 +50,5 @@ module.exports = function addBabelEngine(Mincer, babel) {
 
 	Mincer.registerEngine('.es6', Mincer.BabelEngine);
 
-	prop(Mincer.BabelEngine, 'defaultMimeType', 'application/javascript');
+	Object.defineProperty(Mincer.BabelEngine, 'defaultMimeType', {value: 'application/javascript'});
 };
